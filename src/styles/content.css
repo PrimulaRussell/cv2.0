@@ -1,11 +1,20 @@
 .background {
   text-align: center;
   margin: 40px;
+  overflow: hidden;
 }
 
 h1 {
-  padding-bottom: 10%;
+  padding-bottom: 5%;
+  transition: 0.3s;
 }
+
+h1:hover {
+  transition-timing-function: ease-in;
+  color: #949063;
+  border-color: #949063;
+}
+/*Opener*/
 
 .nav-btn {
   font-size: 1.5em;
@@ -14,11 +23,31 @@ h1 {
   border: 1px solid #1b1b1b;
   border-radius: 10px;
   padding: 10px;
-  margin: 10px;
+  margin: 2% auto;
   transition: 0.3s;
+  display: block;
+  width: 8em;
 }
 
 .nav-btn:hover {
+  transition-timing-function: ease-in;
+  color: #949063;
+  border-color: #949063;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.socialLink {
+  padding: 5%;
+  color: #000;
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+.socialLink:hover {
   transition-timing-function: ease-in;
   color: #949063;
   border-color: #949063;

@@ -1,12 +1,11 @@
 import React from "react";
-import Image from "../images/portfolio-pic.jpg";
-
-function Profile() {
+import Image from "../images/coding.gif";
+const ContactMe = () => {
   return (
     <div>
       <img src={Image} height="550" width="300" alt="Tara" />
     </div>
   );
-}
+};
 
-export default Profile;
+export default ContactMe;

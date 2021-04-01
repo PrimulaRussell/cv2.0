@@ -4,6 +4,11 @@ import "./App.css";
 import Opener from "./components/Opener";
 import Profile from "./components/Profile";
 import About from "./components/About";
+import Coding from "./components/Coding";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,13 +16,18 @@ function App() {
       <div className="App">
         <Route exact path="/" component={Profile} />
         <Route exact path="/About" component={Profile} />
+        <Route exact path="/Portfolio" component={Coding} />
+        <Route exact path="/Contact" component={ContactMe} />
 
         {/*Container*/}
         <div className="container">
           <Route exact path="/" component={Opener} />
           <Route exact path="/About" component={About} />
+          <Route exact path="/Portfolio" component={Portfolio} />
+          <Route exact path="/Contact" component={Contact} />
         </div>
       </div>
+      <Footer></Footer>
     </HashRouter>
   );
 }
