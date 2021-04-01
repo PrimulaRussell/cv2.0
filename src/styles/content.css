@@ -74,4 +74,8 @@ h1:hover {
 
 p {
   text-align: center;
+  font-size: 1em;
+  width: 70%;
+  margin: auto;
+  color: #000;
 }
