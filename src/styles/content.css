@@ -1,15 +1,23 @@
 .background {
-  text-align: center;
-  margin: 40px;
+  margin: 20px auto;
   overflow: hidden;
+  padding-top: 10px;
 }
 
 h1 {
   padding-bottom: 5%;
   transition: 0.3s;
+  text-align: center;
 }
 
 h1:hover {
+  transition-timing-function: ease-in;
+  color: #949063;
+}
+
+.back-button:hover,
+.nav-btn:hover,
+.socialLink:hover {
   transition-timing-function: ease-in;
   color: #949063;
   border-color: #949063;
@@ -23,16 +31,11 @@ h1:hover {
   border: 1px solid #1b1b1b;
   border-radius: 10px;
   padding: 10px;
-  margin: 2% auto;
+  margin: 2.5% auto;
   transition: 0.3s;
   display: block;
   width: 8em;
-}
-
-.nav-btn:hover {
-  transition-timing-function: ease-in;
-  color: #949063;
-  border-color: #949063;
+  text-align: center;
 }
 
 .socials {
@@ -47,8 +50,28 @@ h1:hover {
   transition: 0.3s;
 }
 
-.socialLink:hover {
-  transition-timing-function: ease-in;
-  color: #949063;
-  border-color: #949063;
+/*About*/
+
+.underlineH1 {
+  text-decoration: underline 2px #575757;
+  text-underline-offset: 10px;
+}
+.underlineH1:hover {
+  text-decoration: underline 2px #949063;
+}
+
+.back-button {
+  font-size: 25px;
+  text-decoration: none;
+  color: #575757;
+  border: 1px solid #575757;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: start;
+  transition: 0.3s;
+  margin: 2%;
+}
+
+p {
+  text-align: center;
 }
