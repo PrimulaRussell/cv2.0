@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../images/coding.gif";
+import Image from "../images/contact.gif";
 import "../styles/image.css";
 
 const ContactMe = () => {

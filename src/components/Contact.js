@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import ContactForm from "./ContactForm";
+
 import "../styles/content.css";
 const Contact = () => {
   return (
@@ -7,7 +9,22 @@ const Contact = () => {
       <NavLink to="/" className="back-button">
         ⬅ Back
       </NavLink>
-      <h1>Hi</h1>
+      <h1 className="underlineH1">Contact Me</h1>
+      <ContactForm></ContactForm>
+      <div className="socials">
+        <a href="https://twitter.com/primathedev" className="socialLink">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/tara-russell-200/</div>"
+          className="socialLink"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/PrimulaRussell" className="socialLink">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
     </div>
   );
 };

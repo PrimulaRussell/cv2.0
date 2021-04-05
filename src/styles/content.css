@@ -79,3 +79,24 @@ p {
   margin: auto;
   color: #000;
 }
+
+/*Portfolio*/
+
+.proj-link {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.proj {
+  margin: 10px;
+}
+
+.proj:hover {
+  color: #949063;
+}
+
+.proj h4 {
+  padding: 5px;
+}
+
+/*Contact*/

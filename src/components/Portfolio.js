@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/content.css";
+import Weather from "../images/weather.png";
+import CvMaker from "../images/cv-maker.png";
+import Etch from "../images/etch-a-sketch.png";
 
 const Portfolio = () => {
   return (
@@ -8,7 +11,30 @@ const Portfolio = () => {
       <NavLink to="/" className="back-button">
         ⬅ Back
       </NavLink>
-      <h1>Hi</h1>
+      <h1 className="underlineH1">Portfolio</h1>
+
+      <div className="proj-link">
+        <div className="proj">
+          <h4>Weather App</h4>
+          <a href="https://simple-weatherapplication.netlify.app/">
+            <img src={Weather} height="80px" alt="Weather App" />
+          </a>
+        </div>
+
+        <div className="proj">
+          <h4>CV Maker</h4>
+          <a href="https://app.netlify.com/sites/resumeandcvbuilder/overview">
+            <img src={CvMaker} height="80px" alt="CV Maker" />
+          </a>
+        </div>
+
+        <div className="proj">
+          <h4>Etch-a-Sketch</h4>
+          <a href="https://my-etch-a-sketch-project.netlify.app/">
+            <img src={Etch} height="80px" alt="Etch-a-Sketch" />
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
