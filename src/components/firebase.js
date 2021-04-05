@@ -4,7 +4,7 @@ require("dotenv").config();
 const api_key = process.env.API_KEY;
 
 var firebaseApp = firebase.initializeApp({
-  apiKey: "api_key",
+  apiKey: api_key,
   authDomain: "react-cv-contact.firebaseapp.com",
   projectId: "react-cv-contact",
   storageBucket: "react-cv-contact.appspot.com",
