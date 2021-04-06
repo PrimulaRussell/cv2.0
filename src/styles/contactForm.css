@@ -15,7 +15,7 @@ textarea {
   border: 1px solid lightgray;
   background: #fff;
   font-size: 16px;
-  color: rgb(0, 0, 32);
+  color: #000;
   outline: none;
 }
 
@@ -34,7 +34,7 @@ textarea:focus {
 
 .form > label {
   padding-bottom: 10px;
-  color: rgb(0, 0, 32);
+  color: var(--text-color);
   font-weight: bold;
 }
 
@@ -44,7 +44,7 @@ textarea:focus {
   background-color: #fff;
   font-size: 15px;
   border-radius: 3px;
-  color: #000;
+  color: var(--text-color);
   cursor: pointer;
   transition: 0.3s ease-in;
   margin-top: 10px;

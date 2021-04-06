@@ -17,21 +17,21 @@ const Portfolio = () => {
         <div className="proj">
           <h4>Weather App</h4>
           <a href="https://simple-weatherapplication.netlify.app/">
-            <img src={Weather} height="80px" alt="Weather App" />
+            <img src={Weather} alt="Weather App" />
           </a>
         </div>
 
         <div className="proj">
           <h4>CV Maker</h4>
           <a href="https://app.netlify.com/sites/resumeandcvbuilder/overview">
-            <img src={CvMaker} height="80px" alt="CV Maker" />
+            <img src={CvMaker} alt="CV Maker" />
           </a>
         </div>
 
         <div className="proj">
           <h4>Etch-a-Sketch</h4>
           <a href="https://my-etch-a-sketch-project.netlify.app/">
-            <img src={Etch} height="80px" alt="Etch-a-Sketch" />
+            <img src={Etch} alt="Etch-a-Sketch" />
           </a>
         </div>
       </div>

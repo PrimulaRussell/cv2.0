@@ -27,8 +27,8 @@ h1:hover {
 .nav-btn {
   font-size: 1.5em;
   text-decoration: none;
-  color: #1b1b1b;
-  border: 1px solid #1b1b1b;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
   border-radius: 10px;
   padding: 10px;
   margin: 2.5% auto;
@@ -45,7 +45,7 @@ h1:hover {
 
 .socialLink {
   padding: 5%;
-  color: #000;
+  color: var(--text-color);
   font-size: 30px;
   transition: 0.3s;
 }
@@ -53,7 +53,7 @@ h1:hover {
 /*About*/
 
 .underlineH1 {
-  text-decoration: underline 2px #575757;
+  text-decoration: underline 2px var(--text-color);
   text-underline-offset: 10px;
 }
 .underlineH1:hover {
@@ -63,8 +63,8 @@ h1:hover {
 .back-button {
   font-size: 25px;
   text-decoration: none;
-  color: #575757;
-  border: 1px solid #575757;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
   border-radius: 10px;
   padding: 5px;
   text-align: start;
@@ -77,18 +77,18 @@ p {
   font-size: 1em;
   width: 70%;
   margin: auto;
-  color: #000;
+  color: var(--text-color);
 }
 
 /*Portfolio*/
 
 .proj-link {
-  text-align: center;
-  margin-bottom: 10px;
+  justify-content: space-between;
+  display: flex;
 }
 
 .proj {
-  margin: 10px;
+  margin: 30px;
 }
 
 .proj:hover {
@@ -96,6 +96,7 @@ p {
 }
 
 .proj h4 {
+  text-align: center;
   padding: 5px;
 }
 

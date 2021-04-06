@@ -9,10 +9,12 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
+import DarkMode from "./components/DarkMode";
 
 function App() {
   return (
     <HashRouter>
+      <DarkMode />
       <div className="App">
         <Route exact path="/" component={Profile} />
         <Route exact path="/About" component={Profile} />
