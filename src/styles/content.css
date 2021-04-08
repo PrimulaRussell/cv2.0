@@ -44,7 +44,8 @@ h1:hover {
 
 .back-button:hover,
 .nav-btn:hover,
-.socialLink:hover {
+.socialLink:hover,
+.proj-links a:hover {
   transition-timing-function: ease-in;
   color: #949063;
   border-color: #949063;
@@ -120,16 +121,28 @@ p {
 }
 /*Portfolio*/
 
-.proj-link {
+.proj-list {
   justify-content: space-around;
   display: flex;
   text-align: center;
   margin: 10% 0;
 }
 
-.proj:hover {
+.proj img:hover {
   filter: opacity(0.7);
   transition: filter 0.3s ease-in-out;
+}
+
+.proj-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.proj-links a {
+  text-decoration: none;
+  padding: 10px;
+  color: var(--text-color);
+  font-weight: bold;
 }
 
 /*Skills*/

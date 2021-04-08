@@ -13,26 +13,42 @@ const Portfolio = () => {
       </NavLink>
       <h1 className="underlineH1">Portfolio</h1>
 
-      <div className="proj-link">
+      <div className="proj-list">
         <div className="proj">
-          <h4>Weather App</h4>
-          <a href="https://simple-weatherapplication.netlify.app/">
-            <img src={Weather} alt="Weather App" />
-          </a>
+          <h3>Weather App</h3>
+          <img src={Weather} alt="Weather App" />
+          <div className="proj-links">
+            <a href="https://simple-weatherapplication.netlify.app/">
+              View Live
+            </a>
+            <a href="https://github.com/PrimulaRussell/Weather-App">
+              View on Github
+            </a>
+          </div>
         </div>
 
         <div className="proj">
-          <h4>CV Maker</h4>
-          <a href="https://app.netlify.com/sites/resumeandcvbuilder/overview">
-            <img src={CvMaker} alt="CV Maker" />
-          </a>
+          <h3>CV Maker</h3>
+          <img src={CvMaker} alt="CV Maker" />
+          <div className="proj-links">
+            <a href="https://resumeandcvbuilder.netlify.app/">View Live</a>
+            <a href="https://github.com/PrimulaRussell/react-cv-application">
+              View on Github
+            </a>
+          </div>
         </div>
 
         <div className="proj">
-          <h4>Etch-a-Sketch</h4>
-          <a href="https://my-etch-a-sketch-project.netlify.app/">
-            <img src={Etch} alt="Etch-a-Sketch" />
-          </a>
+          <h3>Etch-a-Sketch</h3>
+          <img src={Etch} alt="Etch-a-Sketch" />
+          <div className="proj-links">
+            <a href="https://my-etch-a-sketch-project.netlify.app/">
+              View Live
+            </a>
+            <a href="https://github.com/PrimulaRussell/Etch-a-Sketch">
+              View on Github
+            </a>
+          </div>
         </div>
       </div>
     </div>
