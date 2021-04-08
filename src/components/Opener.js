@@ -15,6 +15,10 @@ const Opener = () => {
         Portfolio
       </NavLink>
 
+      <NavLink to="/Skills" className="nav-btn">
+        Skills
+      </NavLink>
+
       <NavLink to="/Contact" className="nav-btn">
         Contact Me
       </NavLink>

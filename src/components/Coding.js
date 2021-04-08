@@ -5,7 +5,7 @@ import "../styles/image.css";
 const Coding = () => {
   return (
     <div>
-      <img src={Image} height="550" width="300" alt="Tara" className="image" />
+      <img src={Image} alt="Typing on Keyboard" className="image" />
     </div>
   );
 };
