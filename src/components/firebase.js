@@ -1,4 +1,5 @@
-import firebase from "firebase";
+import firebase from "firebase/app";
+import "firebase/firestore";
 require("dotenv").config();
 
 const api_key = process.env.API_KEY;

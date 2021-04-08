@@ -42,7 +42,7 @@ const Opener = () => {
           <i className="fab fa-twitter"></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/tara-russell-200/</div>"
+          href="https://www.linkedin.com/in/tara-russell-200/"
           className="socialLink"
         >
           <i className="fab fa-linkedin"></i>

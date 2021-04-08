@@ -169,7 +169,7 @@ li {
 /*Phone*/
 /* Portrait */
 
-@media only screen and (max-device-width: 500px) and (orientation: portrait) {
+@media only screen and (max-width: 500px) and (orientation: portrait) {
   /*Global*/
   .back-button {
     display: none;
@@ -218,7 +218,7 @@ li {
 }
 
 /* Landscape */
-@media only screen and (max-device-width: 900px) and (orientation: landscape) {
+@media only screen and (max-width: 900px) and (orientation: landscape) {
   /*Global*/
   .back-button {
     display: none;

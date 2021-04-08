@@ -13,16 +13,16 @@ const Contact = () => {
       <ContactForm></ContactForm>
       <div className="socials contact-socials">
         <a href="https://twitter.com/primathedev" className="socialLink">
-          <i class="fab fa-twitter"></i>
+          <i className="fab fa-twitter"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/tara-russell-200/</div>"
           className="socialLink"
         >
-          <i class="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin"></i>
         </a>
         <a href="https://github.com/PrimulaRussell" className="socialLink">
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
       </div>
     </div>
