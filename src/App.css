@@ -13,7 +13,8 @@
 }
 
 body {
-  background: var(--background-image);
+  background-color: var(--background-color);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--text-color);
@@ -22,13 +23,11 @@ body {
 }
 
 body.light {
-  --background-image: url(./images/cloud.jpg);
   --background-color: var(--light);
   --text-color: var(--dark);
   --font-weight: 400;
 }
 body.dark {
-  --background-image: url(./images/night.jpg);
   --background-color: var(--dark);
   --text-color: var(--light);
   --font-weight: 500;
