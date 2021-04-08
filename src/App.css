@@ -74,4 +74,16 @@ h1 {
 
 /* Landscape */
 @media only screen and (max-device-width: 900px) and (orientation: landscape) {
+  .container {
+    margin: 0 auto 15%;
+    height: auto;
+    width: 90%;
+  }
+  .dynamic-images {
+    display: none;
+  }
+  h1 {
+    font-size: 2em;
+    margin-bottom: 3%;
+  }
 }

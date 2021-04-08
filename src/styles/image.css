@@ -27,4 +27,8 @@
 
 /* Landscape */
 @media only screen and (max-device-width: 900px) and (orientation: landscape) {
+  .image {
+    height: 200px;
+    width: auto;
+  }
 }

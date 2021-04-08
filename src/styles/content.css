@@ -209,7 +209,7 @@ li {
   }
 
   .skills li {
-    font-size: 0.7em;
+    font-size: 1em;
   }
   /*Contact*/
   .contact-socials {
@@ -219,4 +219,52 @@ li {
 
 /* Landscape */
 @media only screen and (max-device-width: 900px) and (orientation: landscape) {
+  /*Global*/
+  .back-button {
+    display: none;
+  }
+  h1 {
+    padding-top: 20px;
+  }
+  /*Opener*/
+  .navbar {
+    display: none;
+  }
+
+  .mobileview {
+    display: initial;
+    text-align: center;
+  }
+
+  /*About*/
+  .personal-images {
+    display: none;
+  }
+
+  .about p {
+    padding-bottom: 5%;
+  }
+  /*Portfolio*/
+  .proj-list {
+    display: initial;
+  }
+
+  .proj {
+    padding: 5%;
+  }
+  .proj-links {
+    justify-content: center;
+  }
+  /*Skills*/
+  .skills p {
+    display: none;
+  }
+
+  .skills li {
+    font-size: 1em;
+  }
+  /*Contact*/
+  .contact-socials {
+    display: none;
+  }
 }

@@ -23,4 +23,7 @@
 
 /* Landscape */
 @media only screen and (max-device-width: 900px) and (orientation: landscape) {
+  .footer {
+    padding: 3%;
+  }
 }
