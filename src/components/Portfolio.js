@@ -7,7 +7,7 @@ import Etch from "../images/etch-a-sketch.png";
 
 const Portfolio = () => {
   return (
-    <div className="background">
+    <div className="background portfolio">
       <NavLink to="/" className="back-button">
         ⬅ Back
       </NavLink>

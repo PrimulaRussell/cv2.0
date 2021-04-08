@@ -1,10 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/content.css";
+import Img1 from "../images/doog1.jpg";
+import Img2 from "../images/doog2.jpg";
+import Img3 from "../images/doog3.jpg";
 
 const About = () => {
   return (
-    <div className="background">
+    <div className="background about">
       <NavLink to="/" className="back-button">
         ⬅ Back
       </NavLink>
@@ -21,9 +24,13 @@ const About = () => {
         purpose!
         <br />
         Aside from coding, I love playing video games 🎮 , watching anime 📺 ,
-        playing with my dog🐶 (see pics below), drawing ✏️, and learning about
-        gardening 🌻
+        playing with my dog🐶, drawing ✏️, and learning about gardening 🌻
       </p>
+      <div className="personal-images">
+        <img src={Img1} alt="Picture1 of my dog" className="dog-img"></img>
+        <img src={Img2} alt="Picture2 of my dog" className="dog-img"></img>
+        <img src={Img3} alt="Picture3 of my dog" className="dog-img"></img>
+      </div>
     </div>
   );
 };

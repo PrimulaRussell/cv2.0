@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm";
 import "../styles/content.css";
 const Contact = () => {
   return (
-    <div className="background">
+    <div className="background contact">
       <NavLink to="/" className="back-button">
         ⬅ Back
       </NavLink>

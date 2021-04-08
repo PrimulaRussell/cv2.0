@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/DarkMode.css";
-import "../styles/DarkMode.css";
 
 const DarkMode = () => {
   let clickedClass = "clicked";
@@ -33,11 +32,13 @@ const DarkMode = () => {
   };
 
   return (
-    <button
-      className={theme === "dark" ? clickedClass : ""}
-      id="darkMode"
-      onClick={(e) => switchTheme(e)}
-    ></button>
+    <div className="switch">
+      <button
+        className={theme === "dark" ? clickedClass : ""}
+        id="darkMode"
+        onClick={(e) => switchTheme(e)}
+      ></button>
+    </div>
   );
 };
 

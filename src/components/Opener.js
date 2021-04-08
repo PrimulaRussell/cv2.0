@@ -4,7 +4,7 @@ import "../styles/content.css";
 
 const Opener = () => {
   return (
-    <div className="background">
+    <div className="background opener">
       <h1>Hello, my name is Tara. I'm a full-stack web developer. 💻 </h1>
 
       <NavLink to="/About" className="nav-btn">

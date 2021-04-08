@@ -1,3 +1,13 @@
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .image {
   border: 2px solid #ffffff81;
+  animation: transitionIn 1.5s;
 }
