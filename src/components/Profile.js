@@ -5,7 +5,7 @@ import "../styles/image.css";
 function Profile() {
   return (
     <div>
-      <img src={Image} height="550" width="300" alt="Tara" className="image" />
+      <img src={Image} alt="Tara" className="image" />
     </div>
   );
 }

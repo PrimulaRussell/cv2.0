@@ -10,4 +10,21 @@
 .image {
   border: 2px solid #ffffff81;
   animation: transitionIn 1.5s;
+  height: 550px;
+  width: 300px;
+}
+
+/* Media Queries*/
+/*Phone*/
+/* Portrait */
+
+@media only screen and (max-device-width: 500px) and (orientation: portrait) {
+  .image {
+    height: 200px;
+    width: auto;
+  }
+}
+
+/* Landscape */
+@media only screen and (max-device-width: 900px) and (orientation: landscape) {
 }

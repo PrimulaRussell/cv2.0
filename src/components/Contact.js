@@ -11,7 +11,7 @@ const Contact = () => {
       </NavLink>
       <h1 className="underlineH1">Contact Me</h1>
       <ContactForm></ContactForm>
-      <div className="socials">
+      <div className="socials contact-socials">
         <a href="https://twitter.com/primathedev" className="socialLink">
           <i class="fab fa-twitter"></i>
         </a>

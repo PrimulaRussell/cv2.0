@@ -62,6 +62,9 @@ h1:hover {
   animation: run linear;
   animation-duration: 0.75s;
 }
+.mobileview {
+  display: none;
+}
 .nav-btn {
   font-size: 1.2em;
   text-decoration: none;
@@ -161,8 +164,59 @@ li {
 .skills p {
   margin: 1% auto 5%;
 }
-/*Contact*/
 
-.alert {
-  justify-content: center;
+/* Media Queries*/
+/*Phone*/
+/* Portrait */
+
+@media only screen and (max-device-width: 500px) and (orientation: portrait) {
+  /*Global*/
+  .back-button {
+    display: none;
+  }
+  h1 {
+    padding-top: 20px;
+  }
+  /*Opener*/
+  .navbar {
+    display: none;
+  }
+
+  .mobileview {
+    display: initial;
+    text-align: center;
+  }
+
+  /*About*/
+  .personal-images {
+    display: none;
+  }
+
+  /*Portfolio*/
+  .proj-list {
+    display: initial;
+  }
+
+  .proj {
+    padding: 5%;
+  }
+  .proj-links {
+    justify-content: center;
+  }
+  /*Skills*/
+  .skills p {
+    display: none;
+  }
+
+  .skills li {
+    font-size: 0.7em;
+  }
+  /*Contact*/
+  .contact-socials {
+    display: none;
+  }
+}
+
+/* Landscape */
+@media only screen and (max-device-width: 900px) and (orientation: landscape) {
 }

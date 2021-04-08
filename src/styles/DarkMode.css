@@ -21,3 +21,17 @@
   background-image: url("../images/moon.png");
   background-color: transparent;
 }
+
+/* Media Queries*/
+/*Phone*/
+/* Portrait */
+
+@media only screen and (max-device-width: 500px) and (orientation: portrait) {
+  #darkMode {
+    top: 25px;
+  }
+}
+
+/* Landscape */
+@media only screen and (max-device-width: 900px) and (orientation: landscape) {
+}

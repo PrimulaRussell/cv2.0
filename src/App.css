@@ -14,6 +14,8 @@
 
 body {
   background: var(--background-image);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--text-color);
   font-weight: var(--font-weight);
   transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
@@ -21,16 +23,12 @@ body {
 
 body.light {
   --background-image: url(./images/cloud.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   --background-color: var(--light);
   --text-color: var(--dark);
   --font-weight: 400;
 }
 body.dark {
   --background-image: url(./images/night.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   --background-color: var(--dark);
   --text-color: var(--light);
   --font-weight: 500;
@@ -53,4 +51,27 @@ body.dark {
 h1 {
   font-weight: 600;
   font-size: 3em;
+}
+
+/* Media Queries*/
+/*Phone*/
+/* Portrait */
+
+@media only screen and (max-device-width: 500px) and (orientation: portrait) {
+  .container {
+    margin: 0 auto 15%;
+    height: auto;
+    width: 90%;
+  }
+  .dynamic-images {
+    display: none;
+  }
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 3%;
+  }
+}
+
+/* Landscape */
+@media only screen and (max-device-width: 900px) and (orientation: landscape) {
 }

@@ -6,7 +6,6 @@ const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [formHidden, setFormHidden] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -17,8 +16,11 @@ const ContactForm = () => {
         message: message,
       })
       .then(() => {
-        setFormHidden(true);
+        setName("");
+        setEmail("");
+        setMessage("");
       })
+
       .catch((error) => {
         alert(error.message);
       });
@@ -26,20 +28,7 @@ const ContactForm = () => {
 
   return (
     <div>
-      <h1
-        className="alert"
-        style={{
-          display: formHidden ? "flex" : "none",
-        }}
-      >
-        Message Sent!
-      </h1>
-
-      <form
-        className="form"
-        onSubmit={handleSubmit}
-        style={{ display: formHidden ? "none" : "flex" }}
-      >
+      <form className="form" onSubmit={handleSubmit}>
         <label>Name</label>
         <input
           placeholder="name"

@@ -18,12 +18,13 @@ function App() {
     <HashRouter>
       <DarkMode />
       <div className="App">
-        <Route exact path="/" component={Profile} />
-        <Route exact path="/About" component={Profile} />
-        <Route exact path="/Portfolio" component={Coding} />
-        <Route exact path="/Skills" component={SkillsImg} />
-        <Route exact path="/Contact" component={ContactMe} />
-
+        <div className="dynamic-images">
+          <Route exact path="/" component={Profile} />
+          <Route exact path="/About" component={Profile} />
+          <Route exact path="/Portfolio" component={Coding} />
+          <Route exact path="/Skills" component={SkillsImg} />
+          <Route exact path="/Contact" component={ContactMe} />
+        </div>
         {/*Container*/}
         <div className="container">
           <Route exact path="/" component={Opener} />
