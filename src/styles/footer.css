@@ -15,7 +15,7 @@
 /*Phone*/
 /* Portrait */
 
-@media only screen and (max-width: 500px) and (orientation: portrait) {
+@media only screen and (max-width: 552px) and (orientation: portrait) {
   .footer {
     padding: 3%;
   }
